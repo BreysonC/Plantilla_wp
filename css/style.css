@@ -1,0 +1,5 @@
+.carousel-img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
