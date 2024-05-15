@@ -250,6 +250,11 @@
                                 <a href="f_contacto.php" class="ui-buttons.html"><i
                                         class="mdi mdi-star-circle"></i><span>Contáctanos</span></a>
                             </li>
+
+                            <li>
+                                <a href="nosotros.php" class="ui-buttons.html"><i
+                                        class="mdi mdi-account-multiple-outline"></i><span>Sobre Nosotros</span></a>
+                            </li>
                         </ul>
                     </div>
                     <!-- Sidebar -->
