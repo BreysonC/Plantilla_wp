@@ -10,12 +10,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="plantilla/admin/vertical/assets/images/favicon.ico">
+        <link rel="shortcut icon" href="<? bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/images/favicon.ico">
 
         <!-- App css -->
-        <link href="plantilla/admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-        <link href="plantilla/admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/css/theme.min.css" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -24,7 +24,7 @@
         <!-- Begin page -->
         <div id="layout-wrapper">
             <div class="header-border"></div>
-            
+            <?php echo bloginfo('template_url');?>
             <?php
             include("include/menu.php");
             ?>
@@ -65,13 +65,13 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="img/16243123227814.jpg" class="d-block mx-auto img-fluid" alt="...">
+                                <img src="<?php bloginfo('template_url'); ?>/img/16243123227814.jpg" class="d-block mx-auto img-fluid" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/2da.jpeg" class="d-block mx-auto img-fluid" alt="...">
+                                <img src="<?php bloginfo('template_url'); ?>/img/2da.jpeg" class="d-block mx-auto img-fluid" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/16243123227814.jpg" class="d-block mx-auto img-fluid" alt="...">
+                                <img src="<?php bloginfo('template_url'); ?>/img/16243123227814.jpg" class="d-block mx-auto img-fluid" alt="...">
                             </div>
                         </div>
                         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -103,14 +103,14 @@
 
 
         <!-- jQuery  -->
-        <script src="plantilla/admin/vertical/assets/js/jquery.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/metismenu.min.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/waves.js"></script>
-        <script src="plantilla/admin/vertical/assets/js/simplebar.min.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/js/jquery.min.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/js/metismenu.min.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/js/waves.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/js/simplebar.min.js"></script>
 
         <!-- App js -->
-        <script src="plantilla/admin/vertical/assets/js/theme.js"></script>
+        <script src="<?php bloginfo('template_url'); ?>/plantilla/admin/vertical/assets/js/theme.js"></script>
 
     </body>
 
